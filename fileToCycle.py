@@ -3,5 +3,5 @@ from time import sleep
 
 
 while True:	
-	print ("purple")
+	print ("not purple")
 	sleep(2)
