@@ -19,7 +19,7 @@ global_bankMs = 5*60*1000
 
 global_kill = False
 global_arenaPath = "MTGA.lnk"
-global_logPath = "C:\\Users\\i\\AppData\\LocalLow\\Wizards Of The Coast\\MTGA\\Player.log"
+global_logPath = "C:\\Users\\Brennen\\AppData\\LocalLow\\Wizards Of The Coast\\MTGA\\Player.log"
 
 global_timer7LastRead = -1
 global_timer14LastRead = -1
