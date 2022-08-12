@@ -184,7 +184,7 @@ def tinker2():#this is taken from a github, I just threw it in and added the con
 		
 
 
-		userText = str(userToSendMin)+ ":"+str(userToSendSec) + " | " + str(uFminutes) +":"+str(uFseconds + "fucky:" + str(global_turnNumber))
+		userText = str(userToSendMin)+ ":"+str(userToSendSec) + " | " + str(uFminutes) +":"+str(uFseconds) + "fucky:" + str(global_turnNumber)
 		oppText = str(opponentToSendMin)+ ":"+str(opponentToSendSec)+ " | " + str(oFminutes) +":"+str(oFseconds)
 		#print(userText)
 		#print(oppText)
