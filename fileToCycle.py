@@ -3,5 +3,5 @@ from time import sleep
 
 
 while True:	
-	print ("nother purple haze, yo, I've been eating mad glazed, so....tbc")
+	print ("Hi archer")
 	sleep(2)
