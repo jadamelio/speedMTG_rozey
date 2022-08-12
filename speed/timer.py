@@ -344,7 +344,7 @@ def readFile(i):
 			#print(mRS)
 			global_lastKnowPriority = str(mRS[-2])
 			if int(mRS[4]) > global_turnNumber: 
-				#global_turnNumber = int(mRS[4])
+				global_turnNumber = int(mRS[4])
 				print("New turn #", global_turnNumber)
 			
 			
