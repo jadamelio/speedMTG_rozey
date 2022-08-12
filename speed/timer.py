@@ -184,7 +184,7 @@ def tinker2():#this is taken from a github, I just threw it in and added the con
 		
 
 
-		userText = str(userToSendMin)+ ":"+str(userToSendSec) + " | " + str(uFminutes) +":"+str(uFseconds) + "fucky:" + str(global_turnNumber)
+		userText = str(userToSendMin)+ ":"+str(userToSendSec) + " | " + str(uFminutes) +":"+str(uFseconds) + "   |PRESS FOR MOX| fucky:" + str(global_turnNumber)
 		oppText = str(opponentToSendMin)+ ":"+str(opponentToSendSec)+ " | " + str(oFminutes) +":"+str(oFseconds)
 		#print(userText)
 		#print(oppText)
@@ -344,7 +344,7 @@ def readFile(i):
 			#print(mRS)
 			global_lastKnowPriority = str(mRS[-2])
 			if int(mRS[4]) > global_turnNumber: 
-				global_turnNumber = int(mRS[4])
+				#global_turnNumber = int(mRS[4])
 				print("New turn #", global_turnNumber)
 			
 			
